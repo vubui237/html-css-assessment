@@ -1,0 +1,94 @@
+html,body {
+    height: 100%;
+    width: 100%;
+    background-image: url("img/main-bg.jpeg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 0;
+}
+.container{
+    height: 100%;
+    width: 100%;
+
+}
+.navbar {
+    height: 10%;
+    width: 100%;
+}
+a:link {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  border-bottom: 3px solid white;
+}
+.links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+.notHam {
+    display: none;
+}
+
+.centerText {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#personalPortfolio {
+    font-size: 40px;
+    margin-top: 10%;
+
+}
+#yourStory {
+    font-size: 100px;
+    margin-bottom: -10%;
+}
+.downArrow {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#whiteCircleArrow {
+    display: flex;
+    align-items: center;
+    height: 90%;
+    color: grey;
+    border-radius: 50%;
+    border: 10px white solid;
+    background-color: white;
+    font-size: 30px;
+}
+@media (max-width: 800px) {
+.links {
+    display: none;
+  }
+.notHam {
+    position: absolute;
+    display: inline-block;
+    border: white 1px solid;
+    border-radius: 100%;
+    top: 0%;
+    left: 1%;
+}
+.goingHam {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+}
